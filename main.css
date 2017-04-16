@@ -1,0 +1,292 @@
+@media only screen and (max-width: 320px) {
+
+body{
+  margin: 0;
+  background-color:rgb(255, 255, 179);
+
+}
+.container {
+width:320px;
+height:100%;
+margin-top:2%;
+margin-left:15%;
+margin-right:15%;
+}
+
+.nav-header .firstbike{
+  position:relative;
+  top:-5%;
+  width:150px;  
+}
+
+.nav-header .menu-nav {
+  position:relative;
+  top:5px;
+  width:320px;
+
+}
+
+.nav-header .menu-nav li {
+  float: left;
+  list-style: none;
+  padding-right: 15px;
+}
+
+.nav-header .menu-nav li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 15px;
+  text-align:center;
+}
+
+.container .nav-header .right-nav-top{
+  width:10px;
+  margin-right:20%;
+}
+
+.right-top-1, .right-top-2, .right-top-3{
+  width:20px;
+  position: relative;
+  top:-15px;
+  left: 50px;
+}
+.nav-header .right-nav-bottom{
+  width:30px;
+}
+
+.right-nav-bottom .buy{
+  position: relative;
+  top:-25px;
+  left: -600px;
+  width:30px;
+}
+
+.right-nav-bottom .gotoshop{
+  position:relative;
+  top:-60px;
+  left:-30px;
+  width: 100px;
+}
+
+
+ .container .left-side{
+  top: 30px;
+  width: 100%;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+.container .left-side h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container .left-side .video1 {
+   position:relative;
+   top:350px;
+   text-align:center;
+  margin-left:60px;
+}
+
+.container .left-side .video2 {
+   position:relative;
+   top:400px;
+  margin-left:25px;
+   
+}
+
+.container .right-side img{
+  position:absolute;
+  width: 220px;
+  top:500px;
+ margin-left:-130px;
+}
+.footer {
+  margin-top:600px;
+  left:-72px;
+  width: 320px;
+  border:1px solid rbg(153,153,153);
+  padding:20px;
+  margin-left:120px;
+
+}
+
+ .footer-image{
+  margin-left: -60px;
+}
+.footer-nav .footer-image, .parag-footer {
+ margin-left: -60px;
+}
+
+
+.footer .footer-nav .aboutus{
+position: relative;
+top: 20px;
+margin-left:30px;
+float: left;
+}
+}
+
+
+
+
+body{
+  margin: 0;
+}
+.container{
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+.nav-header{
+  width: 100%;
+  height: 30%;
+}
+.nav-header .firstbike{
+  padding-top: 30px;
+}
+
+.menu-nav li {
+  position: relative;
+  float: left;
+  list-style: none;
+  top: 20px;
+  left: -40px;
+  padding-right: 10px;
+}
+
+.menu-nav li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-weight: bold;
+}
+
+.home:hover, .about:hover, .bike:hover, .news:hover, .support:hover, .contact:hover, .blog:hover, .store:hover{
+  color: rgb(255, 0, 128);
+}
+
+.nav-header .right-nav-top{
+  float: right;
+  position: relative;
+  top: -70px;
+}
+
+.nav-header .right-nav-bottom{
+  float: right;
+}
+.roundImg {
+  position: absolute;
+  left: 800px;
+}
+.buy, .smiley{
+  position: absolute;
+  display: block;
+}
+
+
+.gotoshop{
+  position: relative;
+  top: -40px;
+  left: -20px; 
+}
+
+ .left-side{
+  position: relative;
+  top: -30px;
+  float: left;
+  width: 60%;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+.left-side h1 {
+  font-size: 65px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.left-side .balance {
+  color: rgb(77, 255, 77);
+}
+.left-side p {
+  text-align: justify;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: rgb(153,153,153);
+  font-size: 15px;
+  width: 95%;
+  margin-bottom: 50px;
+}
+.video1{
+  float: left;
+}
+.video2{
+  position: relative;
+  left: 35px;
+}
+.right-side {
+  float: right;
+  width: 38%;
+}
+
+.footer {
+  position: absolute;
+  top: 800px;
+  width: 100%;
+  border-top: 1px solid rgb(153,153,153);
+}
+
+.footer-image{
+  float: left;
+  position: relative;
+  top: 10px;
+}
+.footer-image-4{
+  position: relative;
+  top: 4px;
+}
+.parag-footer {
+  float: left;
+  position: relative;
+  left: 10px;
+      font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: rgb(153,153,153);
+}
+.footer-nav{
+  position: relative;
+  top: 50px; 
+  
+}
+.footer-nav h4 {
+        font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: rgb(153,153,153);
+}
+
+.footer-nav .aboutus{
+position: relative;
+ top: 20px;
+float: left;
+}
+.customer{
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 50px;
+  width: 150px;
+  left: 0;
+  margin-left: 30px;
+}
+
+.footer-nav li {
+  list-style-type: none;
+  margin-left: -40px;
+}
+.footer-nav li a {
+  text-decoration: none;
+   font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: rgb(153,153,153);
+}
+
+
+

@@ -1,0 +1,169 @@
+body{
+  margin: 0;
+}
+.container{
+  width: 80%;
+  height: 35%;
+  margin: 0 10% 0 10%;
+}
+.header-nav {
+  padding: 10px;
+}
+.left-image-title{
+  margin-top: 30px;
+  width: 200px;
+}
+
+ul  {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  position: relative;
+  margin-top: 50px;
+  float: left;
+  left: -11px;
+}
+
+li a{
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+  font-weight: bold;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+.home:hover, .about:hover, .bike:hover, .news:hover, .support:hover, .contact:hover, .blog:hover, .store:hover{
+  color: rgb(255, 0, 128);
+}
+.right-side-nav, .right-side-nav-bottom{
+  float: right;
+}
+
+.right-side-nav .right-top-nav{
+  position: relative;
+  top: -120px;
+}
+
+.right-bottom-nav{
+  position: relative;
+  left: -20px;
+  top: -25px;
+}
+.hor1{
+    position:relative;
+    top:40px;
+    width:126%;
+    margin-left:-140px;
+}
+.horLine{
+  border: 1px dashed rgb(153,153,153);
+}
+.section-1{
+    margin-top:20px;
+  padding: 10px;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+.section-1 h1{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.article-1{
+  color: rgb(105,105,105);
+}
+.article-1 p {
+  width: 55%;
+  margin-bottom: 0;
+  text-align: left;
+}
+.article-1 .image-article-1{
+  position: relative;
+  float: right;
+  top: -235px;
+}
+.article-2{
+  position: relative;
+  top: -50px;
+}
+
+.balance{
+position: relative;
+  top: 270px;
+}
+.article-2 .horLine{
+  width: 100%;
+}
+
+.article-2 h2, p{
+  color: rgb(105,105,105);
+  text-align: justify;
+ 
+}
+.article-3 h2, p{
+  position: relative;
+  color: rgb(105,105,105);
+  text-align: justify;
+  position: relative;
+  top: 0;
+}
+
+
+
+.footer {
+  position: absolute;
+  top: 4000px;
+  width: 100%;
+  border-top: 1px solid rgb(153,153,153);
+}
+
+.footer-image{
+  float: left;
+  position: relative;
+  top: 10px;
+}
+.footer-image-4{
+  position: relative;
+  top: 4px;
+}
+.parag-footer {
+  float: left;
+  position: relative;
+  left: 10px;
+      font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: rgb(153,153,153);
+}
+.footer-nav{
+  position: relative;
+  top:50px;
+  
+}
+.footer-nav h4 {
+        font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: rgb(153,153,153);
+}
+
+.aboutus{
+    width:180px;
+    float:left;
+}
+
+.aboutus a {
+    display:block;
+    text-decoration:none;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: rgb(153,153,153);
+}
+.customer {
+    float:left;
+    width:180px;
+    padding:10px;
+}
+
+.customer a {
+    display:block;
+    text-decoration:none;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: rgb(153,153,153);
+}
